@@ -1,0 +1,14 @@
+//Luis Alexandre tem 33 anos, pesa 73kg e seu imc é de x
+const nome = 'Luis Alexandre';
+const sobrenome = 'Correia';
+const idade = 33;
+const peso = 74;
+const alturaEmM = 1.90;
+const alturaEmCm = alturaEmM * 100;
+let imc = peso/(alturaEmM*alturaEmM);
+let anoNascimento = 2023 - idade;
+console.log(nome, sobrenome,'tem', idade, 'de idade e nasceu em', anoNascimento, 'e seu IMC é de', imc);
+console.log(nome+ ' ' + sobrenome + ' tem ' + idade + ' de idade e nasceu em ' + anoNascimento + ' e seu IMC é de ' + imc );
+console.log(`${nome} ${sobrenome} tem ${idade} de idade e nasceu em ${anoNascimento} e seu IMC é de ${imc}`);
+
+//NÃO CRIAR VARIÁVEIS SEM CONST OU VAR, PORQUE DAÍ CRIA UMA VARIÁVEL GLOBAL, QUE FODE TUDO

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio</title>
+  </head>
+  <body>
+    <section>
+      <script>
+        let num = Number(prompt("Digite um número"));
+        document.body.innerHTML += `Seu número é ${num}</br>`;
+        document.body.innerHTML += `Seu número é ${num ** 0.5}</br>`;
+        document.body.innerHTML += `${num} é inteiro? ${Number.isInteger(
+          num
+        )}</br>`;
+        document.body.innerHTML += `${num} é NaN? ${Number.isNaN(num)}</br>`;
+        document.body.innerHTML += `${num} arredondando para baixo: ${Math.floor(
+          num
+        )}</br>`;
+        document.body.innerHTML += `${num} arredondando para cima ${Math.ceil(
+          num
+        )}</br>`;
+        document.body.innerHTML += `${num} com 2 casas decimais ${num.toFixed(
+          2
+        )}</br>`;
+      </script>
+    </section>
+  </body>
+</html>
