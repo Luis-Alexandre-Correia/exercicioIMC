@@ -10,7 +10,7 @@ const data3 = new Date('2023-09-05 15:46:59');//a data pode ser digitada em stri
 
 console.log(data3);
 console.log('Dia', data3.getDate()); //getDate extrai apenas o dia da data
-console.log('Mês', data3.getMonth()); //Extrai o mes
+console.log('Mês', data3.getMonth()+1); //Extrai o mes (a contagem do mês começa no zero, por isso adicionei 1)
 console.log('Ano', data3.getFullYear()); //extrai o ano
 console.log('Hora', data3.getHours());// extrai a hora
 console.log('Minuto', data3.getMinutes());// extrai os minutos
